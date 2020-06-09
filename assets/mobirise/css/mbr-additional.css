@@ -1222,7 +1222,7 @@ section.lazy-placeholder:after {
 }
 .cid-s1qIJ8zFJg {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 135px;
   background-image: url("../../../assets/images/background4.jpg");
 }
 .cid-s1qIJ8zFJg P {
@@ -1230,10 +1230,12 @@ section.lazy-placeholder:after {
 }
 .cid-s1qIJ8zFJg H3 {
   color: #f7ed4a;
+  text-align: left;
 }
 .cid-s1qIJ8zFJg .mbr-text,
 .cid-s1qIJ8zFJg .mbr-section-btn {
   color: #ffffff;
+  text-align: right;
 }
 .cid-s1qL6YU2bM .navbar {
   padding: .5rem 0;
