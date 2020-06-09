@@ -1,6 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One:400&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Bangers:400&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Anton:400&display=swap);
 
 
 
@@ -10,7 +11,7 @@ body {
   font-family: Rubik;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
   font-size: 4.25rem;
   font-display: swap;
 }
@@ -18,7 +19,7 @@ body {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Bangers', display;
+  font-family: 'Fredoka One', display;
   font-size: 2rem;
   font-display: swap;
 }
@@ -34,7 +35,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 3rem;
   font-display: swap;
 }
@@ -735,6 +736,9 @@ section.lazy-placeholder:after {
 .cid-s1onQCrU6V .mbr-section-btn {
   text-align: left;
 }
+.cid-s1onQCrU6V H3 {
+  color: #ffffff;
+}
 .cid-s1ordJF5oG {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -798,6 +802,9 @@ section.lazy-placeholder:after {
 .cid-s1ordJF5oG P {
   color: #ffffff;
 }
+.cid-s1ordJF5oG .card-title {
+  color: #232323;
+}
 .cid-s1hqxLCLNt {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -835,7 +842,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-s1hqxLCLNt H2 {
-  color: #cc2952;
+  color: #075149;
 }
 .cid-s1hqxLCLNt .mbr-text,
 .cid-s1hqxLCLNt .mbr-section-btn {
