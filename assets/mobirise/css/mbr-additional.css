@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Fredoka+One:400&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Anton:400&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
 
 
@@ -19,7 +18,7 @@ body {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Fredoka One', display;
+  font-family: 'Anton', sans-serif;
   font-size: 2rem;
   font-display: swap;
 }
@@ -27,7 +26,7 @@ body {
   font-size: 3.2rem;
 }
 .display-4 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
   font-size: 1rem;
   font-display: swap;
 }
@@ -35,7 +34,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 3rem;
   font-display: swap;
 }
@@ -737,7 +736,7 @@ section.lazy-placeholder:after {
   text-align: left;
 }
 .cid-s1onQCrU6V H3 {
-  color: #e4d295;
+  color: #c4bc3b;
   text-align: center;
 }
 .cid-s1onQCrU6V H1 {
@@ -1019,6 +1018,26 @@ section.lazy-placeholder:after {
 }
 .cid-s1oyGX2t2M P {
   color: #232323;
+}
+.cid-s1sGT5IVt9 {
+  padding-top: 60px;
+  padding-bottom: 15px;
+  background-color: #075149;
+}
+.cid-s1sGT5IVt9 h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-s1sGT5IVt9 p {
+  color: #767676;
+  text-align: left;
+}
+.cid-s1sGT5IVt9 .card-box {
+  padding-top: 2rem;
+}
+.cid-s1sGT5IVt9 .card-wrapper {
+  height: 100%;
 }
 .cid-s1r8fgusEf {
   padding-top: 90px;
