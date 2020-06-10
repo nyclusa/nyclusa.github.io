@@ -12,11 +12,11 @@ body {
 }
 .display-1 {
   font-family: 'Noto Sans TC', sans-serif;
-  font-size: 6rem;
+  font-size: 5.5rem;
   font-display: swap;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 9.6rem;
+  font-size: 8.8rem;
 }
 .display-2 {
   font-family: 'Archivo Black', sans-serif;
@@ -57,9 +57,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 4.8rem;
-    font-size: calc( 2.75rem + (6 - 2.75) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.75rem + (6 - 2.75) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 4.4rem;
+    font-size: calc( 2.5749999999999997rem + (5.5 - 2.5749999999999997) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2.5749999999999997rem + (5.5 - 2.5749999999999997) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.08rem;
@@ -1004,6 +1004,11 @@ section.lazy-placeholder:after {
 @media (min-width: 992px) {
   .cid-s1tkJSxYrp .mbr-figure {
     padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+  .cid-s1tkJSxYrp .media-container-row {
+    -webkit-flex-direction: row-reverse;
   }
 }
 @media (max-width: 991px) {
@@ -1011,6 +1016,13 @@ section.lazy-placeholder:after {
     padding-right: 0;
     padding-bottom: 1rem;
     margin-bottom: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    margin-top: 2rem;
+  }
+  .cid-s1tkJSxYrp .media-container-row {
+    -webkit-flex-direction: column-reverse;
   }
 }
 @media (max-width: 300px) {
@@ -1095,7 +1107,7 @@ section.lazy-placeholder:after {
 .cid-s1r8fgusEf {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-image: url("../../../assets/images/nycl-logo-n-plate-silver-507x286.png");
+  background-image: url("../../../assets/images/circular-saw-2000x1517.png");
 }
 .cid-s1r8fgusEf .item {
   padding-bottom: 2rem;
@@ -1295,7 +1307,7 @@ section.lazy-placeholder:after {
 .cid-s1qIJ8zFJg {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url("../../../assets/images/fastcraft-3-659x186.png");
+  background-image: url("../../../assets/images/recip-2000x1099.png");
 }
 .cid-s1qIJ8zFJg P {
   color: #767676;
