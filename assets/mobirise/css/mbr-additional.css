@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Archivo+Black:400&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Viga:400&display=swap);
 
 
 
@@ -11,11 +12,11 @@ body {
 }
 .display-1 {
   font-family: 'Noto Sans TC', sans-serif;
-  font-size: 4rem;
+  font-size: 6rem;
   font-display: swap;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.4rem;
+  font-size: 9.6rem;
 }
 .display-2 {
   font-family: 'Archivo Black', sans-serif;
@@ -26,12 +27,12 @@ body {
   font-size: 2.16rem;
 }
 .display-4 {
-  font-family: 'Noto Sans TC', sans-serif;
-  font-size: 0.8rem;
+  font-family: 'Viga', sans-serif;
+  font-size: 1rem;
   font-display: swap;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.28rem;
+  font-size: 1.6rem;
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
@@ -56,9 +57,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.2rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 4.8rem;
+    font-size: calc( 2.75rem + (6 - 2.75) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2.75rem + (6 - 2.75) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.08rem;
@@ -66,9 +67,9 @@ body {
     line-height: calc( 1.4 * (1.1225rem + (1.35 - 1.1225) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.64rem;
-    font-size: calc( 0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 2.4rem;
@@ -1310,12 +1311,12 @@ section.lazy-placeholder:after {
 }
 .cid-s1tqw0DNiU .navbar {
   padding: .5rem 0;
-  background: #333333;
+  background: #202020;
   transition: none;
   min-height: 77px;
 }
 .cid-s1tqw0DNiU .navbar-dropdown.bg-color.transparent.opened {
-  background: #333333;
+  background: #202020;
 }
 .cid-s1tqw0DNiU a {
   font-style: normal;
@@ -1406,7 +1407,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-s1tqw0DNiU .dropdown .dropdown-menu {
-  background: #333333;
+  background: #202020;
   visibility: hidden;
   display: block;
   position: absolute;
